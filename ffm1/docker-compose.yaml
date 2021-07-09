@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  auth:
+    image: 7744149944/ffm-auth
+    ports:
+      - "5001:8000"
+
